@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-color: #DEE5EF;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: #454E51;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+span {
+    font-weight: bold;
+}
+
+.smartphone {
+    background-color: #6E91A1;
+    width: 300px;
+    height: 625px;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 15px solid #1E1E1E;
+}
+
+nav{
+    padding-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav-right img {
+    width: 20px;
+}
+
+.banner {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    color: #FFF;
+    height: 18%;
+    width: 100%;
+    background-color: rgba(126, 155, 167, 0.8);
+}
+
+
+.temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+}
+
+
+.temp img {
+    height: 40px;
+    width: 40px;
+}
+
+.temp h2 {
+    align-self: center;
+}
+
+.week {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.day {
+    color: #949DA4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 120%;
+    font-size: 14px;
+}
+.day:nth-child(2) {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+
+.btn {
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 10%
+}
+button {
+    background-color: #454A4E;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    color: #FFF;
+    padding: 5px 20px;
+}
